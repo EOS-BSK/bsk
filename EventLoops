@@ -1,0 +1,9 @@
+### Event Loops
+
+This sector talk about the event loops in Future/Promise in workflow engine.
+
+Modern platforms and runtimes typically rely on many underlying system layers to operate. 
+For example, there’s an underlying file system, a database system, and other web services that may be relied on by 
+a given language implementation, library, or framework. Interaction with these components typically involves a period 
+where we’re doing nothing but waiting for the response. This can be a very large waste of computing resources.
+
